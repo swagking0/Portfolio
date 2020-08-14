@@ -13,3 +13,5 @@ Color Schema:
 black: #262223
 organe: #F2811D
 white: #F2F2F2
+
+A reference resource: https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d
