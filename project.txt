@@ -2,3 +2,10 @@
         <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
         <link rel="manifest" href="favicon_io/site.webmanifest">
+
+
+Color Schema:
+
+black: #262223
+organe: #F2811D
+white: #F2F2F2
