@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import Loader from "./resources/base/components/sub-components/Loader";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Loader from "./resources/base/components/Loader/Loader";
+import NavBar from "./resources/base/components/NavBar/NavBar";
+
+import Home from "./resources/base/pages/Home/Home";
+import Blogs from "./resources/base/pages/Blogs/Blogs";
+import Contact from "./resources/base/pages/Contact/Contact";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -27,20 +32,16 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Website Under Development</h1>
-        <p>Upgrading to React!!</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
-        <h2>{myData.basics.name}</h2>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/blogs" component={Blogs} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

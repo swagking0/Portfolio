@@ -1,10 +1,10 @@
 import React from "react";
-import "../../styles/subcomp-styles/loader.css";
+import "../../styles/components/loader.css";
 
 function Loader() {
   return (
-    <div className="loader-container">
-      <h1>Welcome</h1>
+    <div className="loader__container">
+      <h1>Loding ...</h1>
       <div className="loader"></div>
     </div>
   );
