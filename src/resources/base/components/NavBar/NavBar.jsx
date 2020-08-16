@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../../styles/components/navbar.css";
 
 function NavBar() {
@@ -9,23 +9,32 @@ function NavBar() {
         <input type="checkbox" />
         <span></span>
         <span></span>
-        <div className="navbar__menu">
-          <li>
-            <Link to="/Portfolio" className="navbar__menuitem">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/Portfolio/blogs" className="navbar__menuitem">
-              Blogs
-            </Link>
-          </li>
-          <li>
-            <Link to="/Portfolio/contact" className="navbar__menuitem">
-              Contact
-            </Link>
-          </li>
-        </div>
+        <nav className="navbar__menu">
+          <NavLink
+            exact
+            activeClassName="navbar__menuitem--active"
+            className="navbar__menuitem"
+            to="/Portfolio"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            exact
+            activeClassName="navbar__menuitem--active"
+            className="navbar__menuitem"
+            to="/Portfolio/blogs"
+          >
+            Blogs
+          </NavLink>
+          <NavLink
+            exact
+            activeClassName="navbar__menuitem--active"
+            className="navbar__menuitem"
+            to="/Portfolio/contact"
+          >
+            Contact
+          </NavLink>
+        </nav>
       </div>
     </div>
   );

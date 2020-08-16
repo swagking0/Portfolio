@@ -1,10 +1,12 @@
 import React from "react";
 
+import LandingHero from "../../components/LandingHero/LandingHero";
+
 function Home() {
   return (
-    <div>
-      <h1>Welcome to home</h1>
-    </div>
+    <>
+      <LandingHero />
+    </>
   );
 }
 

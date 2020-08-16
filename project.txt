@@ -15,11 +15,3 @@ organe: #F2811D
 white: #F2F2F2
 
 A reference resource: https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d
-
-
-temp:
-      <div className="navbar__burgerbutton">
-        <div className="navbar__bar"></div>
-        <div className="navbar__bar"></div>
-        <div className="navbar__bar"></div>
-      </div>
