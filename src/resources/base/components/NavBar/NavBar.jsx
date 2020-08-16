@@ -4,25 +4,30 @@ import "../../styles/components/navbar.css";
 
 function NavBar() {
   return (
-    <nav>
-      <div className="navbar__burgerbutton">
-        <div className="navbar__bar"></div>
-        <div className="navbar__bar"></div>
-        <div className="navbar__bar"></div>
+    <div className="navbar__body">
+      <div className="navbar__container">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <div className="navbar__menu">
+          <li>
+            <Link to="/Portfolio" className="navbar__menuitem">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/Portfolio/blogs" className="navbar__menuitem">
+              Blogs
+            </Link>
+          </li>
+          <li>
+            <Link to="/Portfolio/contact" className="navbar__menuitem">
+              Contact
+            </Link>
+          </li>
+        </div>
       </div>
-
-      <ul>
-        <li>
-          <Link to="/Portfolio/">Home</Link>
-        </li>
-        <li>
-          <Link to="/Portfolio/blogs">Blogs</Link>
-        </li>
-        <li>
-          <Link to="/Portfolio/contact">Contact</Link>
-        </li>
-      </ul>
-    </nav>
+    </div>
   );
 }
 
