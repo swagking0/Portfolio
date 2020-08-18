@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-import "./resources/base/styles/app.css";
-
 import Routes from "./Routes";
 
 import Loader from "./resources/base/components/Loader/Loader";
@@ -31,10 +29,10 @@ function App() {
   }
 
   return (
-    <div className="app__container">
+    <React.Fragment>
       <NavBar />
       <Routes />
-    </div>
+    </React.Fragment>
   );
 }
 

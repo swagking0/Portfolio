@@ -1,10 +1,11 @@
 import React from "react";
+import ComingSoon from "../../components/ComingSoon/ComingSoon";
 
 function Blogs() {
   return (
-    <div>
-      <h1>Welcome to Blogs</h1>
-    </div>
+    <React.Fragment>
+      <ComingSoon />
+    </React.Fragment>
   );
 }
 

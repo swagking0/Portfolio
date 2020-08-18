@@ -1,10 +1,11 @@
 import React from "react";
+import ComingSoon from "../../components/ComingSoon/ComingSoon";
 
 function Contact() {
   return (
-    <div>
-      <h1>Welcome to contact</h1>
-    </div>
+    <React.Fragment>
+      <ComingSoon />
+    </React.Fragment>
   );
 }
 

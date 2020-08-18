@@ -1,0 +1,37 @@
+.comingsoon__highlightcolor {
+  color: #f2811d;
+}
+
+.comingsoon__container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.comingsoon__left {
+  flex: 1 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comingsoon__right {
+  flex: 1 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comingsoon__left h1 {
+  color: #f2f2f2;
+  font-weight: 600;
+  font-size: 3rem;
+  font-style: normal;
+}
+
+.comingsoon__right img {
+  height: 600px;
+  width: 600px;
+}
