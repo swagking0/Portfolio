@@ -8,28 +8,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 }
 
 .landinghero__landingleftcontainer {
-  flex: 1 0 200px;
   height: 100%;
-  position: relative;
 }
 
 .landinghero__landingrightcontainer {
-  flex: 1 0 100px;
   height: 100%;
-  position: relative;
+  width: 50%;
 }
 
 .landinghero__landingleftcontainer h1 {
   color: #f2f2f2;
-  font-size: 10rem;
+  font-size: 10em;
   font-style: normal;
   margin: 0;
-  position: absolute;
-  left: 50px;
+  position: relative;
   top: 100px;
 }
 
@@ -38,9 +34,8 @@
   font-size: 3rem;
   font-style: normal;
   margin: 0;
-  position: absolute;
-  top: 280px;
-  left: 50px;
+  position: relative;
+  top: 100px;
 }
 
 .landinghero__landingleftcontainer h2:nth-of-type(2) {
@@ -48,7 +43,6 @@
   font-size: 5rem;
   font-style: normal;
   margin: 0;
-  position: absolute;
-  top: 340px;
-  left: 50px;
+  position: relative;
+  top: 100px;
 }

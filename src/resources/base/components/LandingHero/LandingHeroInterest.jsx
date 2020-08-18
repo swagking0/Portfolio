@@ -6,7 +6,6 @@ function LandingHeroInterest({
   intop,
   inleft,
   valuetop,
-  valueleft,
   amitop,
   amileft,
 }) {
@@ -16,7 +15,6 @@ function LandingHeroInterest({
   };
   const landingherointerest__h2style = {
     "--h2top": valuetop,
-    "--h2left": valueleft,
   };
   const landingherointerest__amistyle = {
     "--amitop": amitop,

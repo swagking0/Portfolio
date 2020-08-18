@@ -21,38 +21,34 @@ function LandingHero() {
       <div className="landinghero__landingrightcontainer">
         <LandingHeroInterest
           interestvalue="AI"
-          intop="10px"
+          intop="20px"
           inleft="50px"
-          valuetop="50px"
-          valueleft="75px"
-          amitop="-40px"
+          valuetop="75px"
+          amitop="-230px"
           amileft="0"
         />
         <LandingHeroInterest
           interestvalue="Full Stack"
-          intop="160px"
+          intop="20px"
           inleft="300px"
-          valuetop="50px"
-          valueleft="30px"
-          amitop="110px"
+          valuetop="75px"
+          amitop="-230px"
           amileft="250px"
         />
         <LandingHeroInterest
           interestvalue="Robotics"
-          intop="310px"
+          intop="20px"
           inleft="50px"
-          valuetop="50px"
-          valueleft="35px"
-          amitop="260px"
+          valuetop="75px"
+          amitop="-230px"
           amileft="0"
         />
         <LandingHeroInterest
           interestvalue="Electronics"
-          intop="460px"
+          intop="20px"
           inleft="300px"
-          valuetop="50px"
-          valueleft="15px"
-          amitop="410px"
+          valuetop="75px"
+          amitop="-230px"
           amileft="250px"
         />
       </div>
