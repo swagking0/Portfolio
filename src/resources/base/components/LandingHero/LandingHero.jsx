@@ -11,46 +11,23 @@ function LandingHero() {
         <h2>
           I'm{" "}
           <span className="landinghero__highlightcolor">
-            Mohith Bhargav Sunkara
+            Sunkara, Mohith Bhargav
           </span>
         </h2>
         <h2>
-          A <span className="landinghero__highlightcolor">Engineer</span> in
+          A <span className="landinghero__highlightcolor">Developer</span> in
         </h2>
+        {/*<div className="landinghero__curvedarrow"></div>*/}
       </div>
       <div className="landinghero__landingrightcontainer">
-        <LandingHeroInterest
-          interestvalue="AI"
-          intop="20px"
-          inleft="50px"
-          valuetop="75px"
-          amitop="-230px"
-          amileft="0"
-        />
-        <LandingHeroInterest
-          interestvalue="Full Stack"
-          intop="20px"
-          inleft="300px"
-          valuetop="75px"
-          amitop="-230px"
-          amileft="250px"
-        />
-        <LandingHeroInterest
-          interestvalue="Robotics"
-          intop="20px"
-          inleft="50px"
-          valuetop="75px"
-          amitop="-230px"
-          amileft="0"
-        />
-        <LandingHeroInterest
-          interestvalue="Electronics"
-          intop="20px"
-          inleft="300px"
-          valuetop="75px"
-          amitop="-230px"
-          amileft="250px"
-        />
+        <div className="landinghero__interesttop">
+          <LandingHeroInterest interestvalue="AI" />
+          <LandingHeroInterest interestvalue="Full Stack" />
+        </div>
+        <div className="landinghero__interestbottom">
+          <LandingHeroInterest interestvalue="Robotics" />
+          <LandingHeroInterest interestvalue="Electronics" />
+        </div>
       </div>
     </div>
   );

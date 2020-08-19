@@ -4,7 +4,7 @@ import "../../styles/components/navbar.css";
 
 function NavBar() {
   return (
-    <div className="navbar__body">
+    <div className="navbar__wrapper">
       <div className="navbar__container">
         <input type="checkbox" />
         <span></span>

@@ -1,50 +1,47 @@
-.landingherointerest__wrapper .landingherointerest__interest {
-  width: 200px;
-  height: 200px;
-  background: #f2811d;
-  border-radius: 50%;
-  text-align: center;
+.landingherointerest__wrapper {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
   position: relative;
-  box-shadow: 0px 0px 12px rgba(225, 225, 225, 0.2);
+}
+
+.landingherointerest__wrapper .landingherointerest__interest {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  background: #262223;
+  border-radius: 50%;
+  box-shadow: 0px 0px 12px rgba(242, 129, 29, 0.2);
   z-index: 100;
-  top: var(--intop);
-  left: var(--inleft);
 }
 
 .landingherointerest__wrapper .landingherointerest__interest h2 {
   color: #f2f2f2;
-  font-size: 2em;
+  font-size: 1.5em;
   font-style: normal;
-  position: relative;
   margin: 0;
-  top: 75px;
-  top: var(--h2top);
 }
 
-.landingherointerest__wrapper .landingherointerest__animationcontainer {
-  position: relative;
-}
-
-.landingherointerest__wrapper
-  .landingherointerest__animationcontainer
-  .landingherointerest__animationcontainerbox {
-  width: 300px;
-  height: 300px;
+.landingherointerest__wrapper .landingherointerest__animationcontainerbox {
+  width: 250px;
+  height: 250px;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: var(--amitop);
-  left: var(--amileft);
 }
 
-.landingherointerest__wrapper
-  .landingherointerest__animationcontainer
-  .landingherointerest__animationcontainerbox
-  span {
+.landingherointerest__wrapper .landingherointerest__animationcontainerbox span {
   position: absolute;
   box-sizing: border-box;
-  border: 2px solid #f2f2f2;
+  border: none;
+  background: rgba(242, 129, 29, 0.25);
   border-radius: 50%;
   animation: animate 5s linear infinite;
   animation-delay: calc(-0.5s * var(--i));
@@ -59,8 +56,8 @@
     opacity: 1;
   }
   100% {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     opacity: 0;
   }
 }
