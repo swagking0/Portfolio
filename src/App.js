@@ -28,10 +28,17 @@ function App() {
     return <Loader />;
   }
 
+  const mystyle = {
+    width: "100%",
+    height: "100vh",
+    backgroundColor: "DodgerBlue",
+  };
+
   return (
     <React.Fragment>
-      <NavBar />
+      {/*<NavBar />*/}
       <Routes />
+      <div style={mystyle}></div>
     </React.Fragment>
   );
 }

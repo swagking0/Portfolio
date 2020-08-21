@@ -26,6 +26,7 @@
   align-items: center;
   justify-content: center;
   flex-flow: column nowrap;
+  position: relative;
 }
 
 .landinghero__landingleftcontainer h1 {
@@ -50,28 +51,41 @@
   margin: 0;
 }
 
-/*.landinghero__landingleftcontainer .landinghero__curvedarrow {
+.landinghero__landingleftcontainer .landinghero__curvedarrowwrapper {
   position: relative;
-  width: 0;
-  height: 0;
-  margin: 0;
-  border-top: 9px solid transparent;
-  border-right: 9px solid red;
-  transform: rotate(10deg);
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-flow: row nowrap;
 }
 
-.landinghero__landingleftcontainer .landinghero__curvedarrow::after {
+.landinghero__landingleftcontainer
+  .landinghero__curvedarrowwrapper
+  .landinghero__curvedarrow {
+  width: 50px;
+  height: 260px;
+  border: 3px dashed #f2811d;
+  border-color: transparent transparent transparent #f2811d;
+  border-radius: 230px 0 0 150px;
+  margin-bottom: 60px;
+  margin-right: 10px;
+  transform: rotate(-75deg);
+}
+
+.landinghero__landingleftcontainer
+  .landinghero__curvedarrowwrapper
+  .landinghero__curvedarrow::after {
   content: "";
   position: absolute;
-  border: 0 solid transparent;
-  border-top: 3px solid red;
-  border-radius: 20px 0 0 0;
-  top: -12px;
-  left: -9px;
-  width: 12px;
-  height: 12px;
-  transform: rotate(45deg);
-}*/
+  bottom: 0;
+  left: 0;
+  border-width: 20px 15px 0;
+  border-style: solid;
+  border-color: #f2811d transparent transparent;
+  transform: rotate(-55deg);
+}
 
 .landinghero__landingrightcontainer .landinghero__interesttop {
   display: flex;
@@ -85,4 +99,116 @@
   align-items: center;
   justify-content: space-around;
   flex-flow: row nowrap;
+}
+
+.landinghero__landingrightcontainer .landinghero__scrollwrapper {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-flow: column nowrap;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
+}
+
+.landinghero__landingrightcontainer
+  .landinghero__scrollwrapper
+  .landinghero__scrollmouse {
+  height: 42px;
+  width: 24px;
+  border-radius: 14px;
+  transform: none;
+  border: 2px solid #f2f2f2;
+  margin-top: 5px;
+}
+
+.landinghero__landingrightcontainer
+  .landinghero__scrollwrapper
+  .landinghero__scrollmousewheel {
+  height: 5px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: #f2f2f2;
+  position: relative;
+
+  height: 4px;
+  width: 4px;
+  border: 2px solid #f2f2f2;
+  border-radius: 8px;
+  animation: mouse-wheel 0.6s linear infinite;
+}
+
+@keyframes mouse-wheel {
+  0% {
+    top: 1px;
+  }
+  25% {
+    top: 2px;
+  }
+  50% {
+    top: 3px;
+  }
+  75% {
+    top: 2px;
+  }
+  100% {
+    top: 1px;
+  }
+}
+
+.landinghero__scrollarrows {
+  display: block;
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg);
+
+  border-right: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0 0 0 5px;
+
+  width: 16px;
+  height: 16px;
+}
+
+.scrollarrows__1,
+.scrollarrows__2,
+.scrollarrows__3 {
+  animation: mouse-scroll 1s infinite;
+}
+
+.scrollarrows__1 {
+  animation-direction: alternate;
+  animation-delay: alternate;
+  margin-top: 1px;
+}
+
+.scrollarrows__2 {
+  animation-direction: alternate;
+  animation-delay: 0.2s;
+  margin-top: -6px;
+}
+
+.scrollarrows__3 {
+  animation-direction: alternate;
+  animation-delay: 0.3s;
+  margin-top: -6px;
+}
+
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+    border-right: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+  }
+  100% {
+    opacity: 1;
+    border-right: 2px solid #f2811d;
+    border-bottom: 2px solid #f2811d;
+  }
 }

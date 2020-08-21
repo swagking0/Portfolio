@@ -18,24 +18,3 @@ A reference resource: https://levelup.gitconnected.com/build-an-awesome-develope
 
 
 temp:
-  intop,
-  inleft,
-  valuetop,
-  amitop,
-  amileft,
-
-  /*const landingherointerest__intereststyle = {
-    "--intop": intop,
-    "--inleft": inleft,
-  };
-  const landingherointerest__h2style = {
-    "--h2top": valuetop,
-  };
-  const landingherointerest__amistyle = {
-    "--amitop": amitop,
-    "--amileft": amileft,
-  };*/
-
-style={landingherointerest__intereststyle}
-style={landingherointerest__h2style}
-style={landingherointerest__amistyle}
