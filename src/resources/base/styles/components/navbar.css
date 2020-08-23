@@ -152,16 +152,15 @@
   flex-flow: column nowrap;
 }
 
-.navbar__container .navbar__menuwrapper .navbar__menu .navbar__menuitem {
+.navbar__menuitem {
   padding: 16px;
   text-decoration: none;
   font-size: 5em;
-  color: white;
+  color: #f2f2f2;
   outline: none;
 }
 
 .navbar__menuitem--active {
   color: #f2811d;
-  border-bottom: 1px solid #f2811d;
-  transition: border-bottom 0.5s ease;
+  border-bottom: 2px solid #f2811d;
 }
