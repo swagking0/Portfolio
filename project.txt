@@ -4,8 +4,17 @@
         <link rel="manifest" href="favicon_io/site.webmanifest">
 
 
+My data:
+https://gitconnected.com/swagking0
+api: https://gitconnected.com/v1/portfolio/swagking0
+
 Color Schema:
 
 black: #262223
 organe: #F2811D
 white: #F2F2F2
+
+A reference resource: https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d
+
+
+temp:
