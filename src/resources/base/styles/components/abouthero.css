@@ -1,0 +1,47 @@
+.abouthero__container {
+  width: 100%;
+  height: 50vh;
+}
+
+.abouthero__titlewrapper {
+  width: 100%;
+  height: 10%;
+  /*background-color: darkred;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.abouthero__title {
+  color: #f2f2f2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+.abouthero__herowrapper {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.abouthero__heroleft {
+  flex: 1 0 30%;
+  height: 100%;
+  /*background-color: deepskyblue;*/
+  text-align: center;
+  color: #f2f2f2;
+}
+
+.abouthero__heroright {
+  flex: 1 0 70%;
+  height: 100%;
+  /*background-color: greenyellow;*/
+  text-align: center;
+  color: #f2f2f2;
+}
