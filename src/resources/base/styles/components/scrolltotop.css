@@ -1,0 +1,34 @@
+.scrolltotop__container {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  background-color: #262223;
+  border-radius: 50%;
+}
+
+.scrolltotop__btn {
+  width: 100%;
+  height: 100%;
+  color: #f2f2f2;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+}
+
+.scrolltotop__btn:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}

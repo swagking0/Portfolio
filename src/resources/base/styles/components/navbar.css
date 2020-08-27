@@ -21,7 +21,7 @@
   display: block;
   height: 29px;
   cursor: pointer;
-  z-index: 102;
+  z-index: 3;
 }
 
 .navbar__menucheckboxlabel::before,
@@ -60,7 +60,7 @@
   left: 0;
   color: #f2f2f2;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -136,7 +136,7 @@
   left: 0px;
   background: rgba(38, 34, 35, 0.95);
   overflow: hidden;
-  z-index: 101;
+  z-index: 2;
 }
 
 .navbar__container .navbar__menuwrapper--open {
@@ -158,6 +158,7 @@
   font-size: 5em;
   color: #f2f2f2;
   outline: none;
+  font-weight: 600;
 }
 
 .navbar__menuitem--active {

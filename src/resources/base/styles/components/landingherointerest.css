@@ -18,7 +18,7 @@
   background: #262223;
   border-radius: 50%;
   box-shadow: 0px 0px 12px rgba(242, 129, 29, 0.2);
-  z-index: 100;
+  z-index: 1;
 }
 
 .landingherointerest__wrapper .landingherointerest__interest h2 {
@@ -26,6 +26,7 @@
   font-size: 1.5em;
   font-style: normal;
   margin: 0;
+  font-weight: 400;
 }
 
 .landingherointerest__wrapper .landingherointerest__animationcontainerbox {

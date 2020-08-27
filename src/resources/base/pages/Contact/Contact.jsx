@@ -1,12 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import ComingSoon from "../../components/ComingSoon/ComingSoon";
 
-function Contact() {
-  return (
-    <React.Fragment>
-      <ComingSoon />
-    </React.Fragment>
-  );
+class Contact extends Component {
+  render() {
+    return (
+      <div className="Contact__container">
+        <ComingSoon />
+      </div>
+    );
+  }
 }
 
 export default Contact;

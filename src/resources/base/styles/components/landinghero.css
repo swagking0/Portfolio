@@ -34,6 +34,7 @@
   font-size: 10em;
   font-style: normal;
   margin: 0;
+  font-weight: 600;
 }
 
 .landinghero__landingleftcontainer h2:nth-of-type(1) {
@@ -42,6 +43,7 @@
   font-style: normal;
   margin: 0;
   margin-left: 10px;
+  font-weight: 400;
 }
 
 .landinghero__landingleftcontainer h2:nth-of-type(2) {
@@ -49,6 +51,7 @@
   font-size: 5em;
   font-style: normal;
   margin: 0;
+  font-weight: 500;
 }
 
 .landinghero__landingrightcontainer .landinghero__interesttop {
@@ -97,7 +100,6 @@
   margin: 5px auto;
   background: #f2f2f2;
   position: relative;
-
   height: 4px;
   width: 4px;
   border: 2px solid #f2f2f2;
