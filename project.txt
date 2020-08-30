@@ -18,3 +18,16 @@ A reference resource: https://levelup.gitconnected.com/build-an-awesome-develope
 
 
 temp:
+
+    let index = 0;
+    const updateherointerestValue = (i, value) => {
+      setTimeout(() => {
+        setherointerestValue(value);
+      }, 1000 * i);
+    };
+    const timer = setInterval(() => {
+      for (index; index < herointerest.length; index++) {
+        updateherointerestValue(index, herointerest[index]);
+      }
+    }, 5000);
+    return () => clearInterval(timer);

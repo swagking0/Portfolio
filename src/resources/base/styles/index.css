@@ -1,14 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&display=swap");
-body,
-html {
+* {
   margin: 0;
   padding: 0;
-  font-family: "Mulish", sans-serif;
-  background-color: #262223;
-  height: 100vh;
-  width: 100%;
+  box-sizing: border-box;
 }
 
+body,
+html,
 code {
-  font-family: "Satisfy", cursive;
+  font-family: "Mulish", sans-serif;
+  background-color: #f2f2f2;
+  height: 100vh;
+  width: 100%;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
