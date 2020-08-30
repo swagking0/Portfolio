@@ -28,7 +28,7 @@ class LandingHero extends Component {
         herointerestbackgroundValue: this.state.herointerestbackground[index],
       });
       index = (index + 1) % this.state.herointerest.length;
-    }, 2000);
+    }, 1500);
   }
   componentWillUnmount() {
     clearInterval(this.updateherointerestValue);
