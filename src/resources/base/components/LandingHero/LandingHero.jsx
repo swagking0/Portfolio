@@ -5,6 +5,8 @@ import ElectronicsImg from "../../asserts/images/hero-images/resource-heroimg2.j
 import FullStackImg from "../../asserts/images/hero-images/resource-heroimg3.jpg";
 import AIImg from "../../asserts/images/hero-images/resource-heroimg4.jpg";
 
+import ScrollDown from "../ScrollDown/ScrollDown";
+
 class LandingHero extends Component {
   constructor(props) {
     super(props);
@@ -48,6 +50,7 @@ class LandingHero extends Component {
           <span className="landinghero__interest">
             {this.state.herointerestValue}
           </span>
+          <ScrollDown />
         </div>
       </div>
     );
