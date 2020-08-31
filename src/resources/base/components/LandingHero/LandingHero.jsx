@@ -4,6 +4,7 @@ import RoboticsImg from "../../asserts/images/hero-images/resource-heroimg1.jpg"
 import ElectronicsImg from "../../asserts/images/hero-images/resource-heroimg2.jpg";
 import FullStackImg from "../../asserts/images/hero-images/resource-heroimg3.jpg";
 import AIImg from "../../asserts/images/hero-images/resource-heroimg4.jpg";
+import HeroPlaceHolderGif from "../../asserts/images/hero-images/resource-heroplaceholder.gif";
 
 import ScrollDown from "../ScrollDown/ScrollDown";
 
@@ -24,11 +25,15 @@ class LandingHero extends Component {
   }
   componentDidMount() {
     var index = 0;
+    const imageLoader = new Image();
     this.updateherointerestValue = setInterval(() => {
-      this.setState({ herointerestValue: this.state.herointerest[index] });
-      this.setState({
-        herointerestbackgroundValue: this.state.herointerestbackground[index],
-      });
+      imageLoader.src = this.state.herointerestbackground[index];
+      imageLoader.onload = () => {
+        this.setState({ herointerestValue: this.state.herointerest[index] });
+        this.setState({
+          herointerestbackgroundValue: this.state.herointerestbackground[index],
+        });
+      };
       index = (index + 1) % this.state.herointerest.length;
     }, 1500);
   }
@@ -40,7 +45,9 @@ class LandingHero extends Component {
       <div
         className="landinghero__container"
         style={{
-          "--backgroundinterestImage": `url(${this.state.herointerestbackgroundValue})`,
+          "--backgroundinterestImage": `url(${
+            this.state.herointerestbackgroundValue || HeroPlaceHolderGif
+          })`,
         }}
       >
         <div className="landinghero__wrapper">
