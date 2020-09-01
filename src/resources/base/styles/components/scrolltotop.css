@@ -17,11 +17,6 @@
   color: #f2f2f2;
   cursor: pointer;
   animation: fadeIn 0.3s;
-  transition: opacity 0.4s;
-}
-
-.scrolltotop__btn:hover {
-  opacity: 1;
 }
 
 @keyframes fadeIn {

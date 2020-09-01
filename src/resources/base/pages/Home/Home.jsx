@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "../../styles/pages/home.css";
 
-/*import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";*/
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 import LandingHero from "../../components/LandingHero/LandingHero";
-/*import AboutHero from "../../components/AboutHero/AboutHero";*/
+import AboutHero from "../../components/AboutHero/AboutHero";
 
 class Home extends Component {
   constructor(props) {
@@ -42,11 +42,11 @@ class Home extends Component {
     return (
       <div className="home__container">
         <LandingHero />
-        {/*<AboutHero />
+        <AboutHero />
         <ScrollToTop
           isVisible={isscrolltotop_visible}
           movetoTop={this.scrolltoTop_fnc}
-        />*/}
+        />
       </div>
     );
   }

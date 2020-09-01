@@ -1,19 +1,14 @@
 import React from "react";
 import "../../styles/components/abouthero.css";
+import ComingSoon from "../ComingSoon/ComingSoon";
 
 function AboutHero() {
   return (
     <div className="abouthero__container">
-      <div className="abouthero__titlewrapper">
-        <h1 className="abouthero__title">Who am I ?</h1>
-      </div>
-      <div className="abouthero__herowrapper">
-        <div className="abouthero__heroleft">
-          <h2>I am left</h2>
-        </div>
-        <div className="abouthero__heroright">
-          <h2>I am right</h2>
-        </div>
+      <div className="abouthero__wrapper">
+        <h1 className="abouthero__sectitle">about me</h1>
+        <hr className="abouthero__sechrline" />
+        <ComingSoon />
       </div>
     </div>
   );

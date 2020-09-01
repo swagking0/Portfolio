@@ -1,7 +1,5 @@
 .landinghero__container {
-  text-align: center;
-  padding: 13em 0;
-  height: 100vh;
+  padding: 16em 0;
   width: 100%;
   background: #f2f2f2;
 }
@@ -11,6 +9,7 @@
   height: 100%;
   max-width: 65em;
   margin: 0 auto;
+  text-align: center;
 }
 
 .landinghero__primarytitle {
