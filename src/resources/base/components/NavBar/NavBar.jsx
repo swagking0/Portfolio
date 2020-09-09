@@ -4,7 +4,7 @@ import "../../styles/components/navbar.css";
 
 import { CgMore, CgClose } from "react-icons/cg";
 
-function NavBar() {
+function NavBar({ isSticky }) {
   const [toggle_menuClass, settoggle_menuClass] = useState("navbar__menu");
   const [toggle_showbtnClass, settoggle_showbtnClass] = useState(
     "navbar__showmenubtn"
@@ -21,7 +21,7 @@ function NavBar() {
     }
   };
   return (
-    <div className="navbar__container">
+    <div className={isSticky}>
       <h2 className="navbar__logo">Sunkara.</h2>
       <input type="checkbox" id="navbar-chk" onChange={handlenavbarChk}></input>
       <label htmlFor="navbar-chk" className={toggle_showbtnClass}>
