@@ -13,11 +13,11 @@
   top: 10px;
   right: 0;
   border-radius: 18px;
-  border: 2px solid #f2f2f2;
+  border: 2px solid #262223;
 }
 
 .scrolldown__mousebutton {
-  background-color: #f2f2f2;
+  background-color: #262223;
   width: 4px;
   height: 10px;
   border-radius: 2px;
@@ -31,7 +31,7 @@
 .scrolldown__infotext {
   margin-top: -30px;
   margin-left: 40px;
-  color: #f2f2f2;
+  color: #262223;
   font-size: 1rem;
   line-height: 1em;
 }
@@ -39,11 +39,5 @@
 @keyframes mouse-scroll {
   to {
     transform: translate(0, 6px) scale(1, 0.8);
-  }
-}
-
-@media screen and (max-width: 812px) {
-  .scrolldown__container {
-    display: none;
   }
 }

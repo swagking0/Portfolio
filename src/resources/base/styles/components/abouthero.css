@@ -1,0 +1,181 @@
+.herosection__abouthero {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.abouthero__container {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.abouthero__sectitlewrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.abouthero__sectitle {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.abouthero__moreaboutherowrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.abouthero__heroimgwrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 10px;
+}
+
+.abouthero__aboutherowrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.abouthero__heroimg {
+  height: 200px;
+  width: 200px;
+  background-image: url("../../asserts/images/hero-images/resource-HeroImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.abouthero__abouthero {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.abouthero__skillswrapper {
+  width: 100%;
+}
+
+.abouthero__skilltitlewrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 0;
+}
+
+.abouthero__skilltitle {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.abouthero__skillwrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.heroskills__firstli {
+  background-color: #262223;
+  color: #f2f2f2;
+  padding: 5px 5px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.abouthero__herocvwrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 812px) {
+  .herosection__abouthero {
+    width: 100%;
+    height: 100%;
+  }
+
+  .abouthero__container {
+    width: 100%;
+  }
+
+  .abouthero__sectitlewrapper {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .abouthero__sectitle {
+    font-size: 2rem;
+  }
+
+  .abouthero__moreaboutherowrapper {
+    width: 100%;
+    padding: 10px 0;
+    flex-flow: column nowrap;
+  }
+
+  .abouthero__heroimgwrapper {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .abouthero__aboutherowrapper {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .abouthero__abouthero {
+    font-size: 1.2rem;
+  }
+
+  .abouthero__skilltitlewrapper {
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .abouthero__skilltitle {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .abouthero__skillwrapper {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .heroskills__firstli {
+    margin-top: 5px;
+  }
+
+  .abouthero__herocvwrapper {
+    width: 100%;
+    padding: 10px 0;
+  }
+}

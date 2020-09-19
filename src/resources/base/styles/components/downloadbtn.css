@@ -1,0 +1,65 @@
+.downloadbtn__container {
+  width: 300px;
+  height: 60px;
+}
+
+.downloadbtn__wrapper {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 5px solid #262223;
+}
+
+.downloadbtn__wrapper a div {
+  width: 100%;
+  height: 100%;
+}
+
+.downloadbtn__frontfacewrapper {
+  background: #262223;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downloadbtn__fronttitle {
+  color: #f2f2f2;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.downloadbtn__fronticon {
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  padding: 1px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.downloadbtn__backfacewrapper {
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.downloadbtn__backtitle {
+  color: #262223;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.downloadbtn__frontfacewrapper {
+  transition: all 300ms ease-in-out;
+}
+
+.downloadbtn__wrapper:hover .downloadbtn__frontfacewrapper {
+  margin-top: -50px;
+}

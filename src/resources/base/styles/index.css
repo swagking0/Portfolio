@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,14 +11,40 @@ html,
 code {
   font-family: "Mulish", sans-serif;
   background-color: #f2f2f2;
-  height: 200vh;
-  width: 100%;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 h1,
 h2,
 h3,
+h4,
 p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+q {
+  quotes: "“" "”";
+}
+
+q::before {
+  content: open-quote;
+}
+
+q::after {
+  content: close-quote;
+}
+
+/*===== Shared Classes Css =====*/
+.globalshared__highlighter {
+  color: #f2811d;
 }

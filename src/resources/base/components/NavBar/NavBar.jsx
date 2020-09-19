@@ -25,7 +25,7 @@ function NavBar({ isSticky }) {
       <h2 className="navbar__logo">Sunkara.</h2>
       <input type="checkbox" id="navbar-chk" onChange={handlenavbarChk}></input>
       <label htmlFor="navbar-chk" className={toggle_showbtnClass}>
-        <CgMore />
+        <CgMore className="navbar__showbtn" />
       </label>
       <nav className={toggle_menuClass}>
         <NavLink

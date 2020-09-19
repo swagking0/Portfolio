@@ -1,0 +1,25 @@
+.typer__typetext {
+  color: #262223;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.typer__cursor {
+  border-left: 0.1em solid #262223;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .typer__typetext {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+}

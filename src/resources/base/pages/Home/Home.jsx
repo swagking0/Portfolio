@@ -5,14 +5,12 @@ import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 import LandingHero from "../../components/LandingHero/LandingHero";
 import AboutHero from "../../components/AboutHero/AboutHero";
+import ComingSoon from "../../components/ComingSoon/ComingSoon";
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isscrolltotop_visible: false,
-    };
-  }
+  state = {
+    isscrolltotop_visible: false,
+  };
 
   componentDidMount() {
     let scrolltoTopComponent = this;
@@ -43,6 +41,7 @@ class Home extends Component {
       <div className="home__container">
         <LandingHero />
         <AboutHero />
+        <ComingSoon />
         <ScrollToTop
           isVisible={isscrolltotop_visible}
           movetoTop={this.scrolltoTop_fnc}

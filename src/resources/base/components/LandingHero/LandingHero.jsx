@@ -1,64 +1,51 @@
 import React, { Component } from "react";
 import "../../styles/components/landinghero.css";
-import RoboticsImg from "../../asserts/images/hero-images/resource-heroimg1.jpg";
-import ElectronicsImg from "../../asserts/images/hero-images/resource-heroimg2.jpg";
-import FullStackImg from "../../asserts/images/hero-images/resource-heroimg3.jpg";
-import AIImg from "../../asserts/images/hero-images/resource-heroimg4.jpg";
-import HeroPlaceHolderGif from "../../asserts/images/hero-images/resource-heroplaceholder.gif";
 
+import Typer from "../Typer/Typer";
 import ScrollDown from "../ScrollDown/ScrollDown";
 
 class LandingHero extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      herointerest: ["AI", "Full Stack", "Robotics", "Electronics"],
-      herointerestbackground: [
-        AIImg,
-        FullStackImg,
-        RoboticsImg,
-        ElectronicsImg,
-      ],
-      herointerestValue: "",
-      herointerestbackgroundValue: "",
-    };
-  }
-  componentDidMount() {
-    var index = 0;
-    const imageLoader = new Image();
-    this.updateherointerestValue = setInterval(() => {
-      imageLoader.src = this.state.herointerestbackground[index];
-      imageLoader.onload = () => {
-        this.setState({ herointerestValue: this.state.herointerest[index] });
-        this.setState({
-          herointerestbackgroundValue: this.state.herointerestbackground[index],
-        });
-      };
-      index = (index + 1) % this.state.herointerest.length;
-    }, 1500);
-  }
-  componentWillUnmount() {
-    clearInterval(this.updateherointerestValue);
-  }
   render() {
     return (
-      <div
-        className="landinghero__container"
-        style={{
-          "--backgroundinterestImage": `url(${
-            this.state.herointerestbackgroundValue || HeroPlaceHolderGif
-          })`,
-        }}
-      >
+      <div className="landinghero__container">
         <div className="landinghero__wrapper">
-          <h1 className="landinghero__primarytitle">Hello</h1>
-          <h2 className="landinghero__subtitle">I'm Sunkara. Mohith Bhargav</h2>
-          <h1 className="landinghero__primarytitle-0">A Developer in</h1>
-          <span className="landinghero__interest">
-            {this.state.herointerestValue}
-          </span>
-          <ScrollDown />
+          <div className="landinghero__primarytitlewrapper">
+            <h1 className="landinghero__primarytitle">
+              hello{" "}
+              <span
+                role="img"
+                aria-labelledby="landinghero__primarytitle"
+                className="landinghero__wave"
+              >
+                &#128075;
+              </span>
+            </h1>
+          </div>
+          <div className="landinghero__heronamewrapper">
+            <h2 className="landinghero__heroname">
+              i'm <span className="landinghero__heronamelogo">sunkara.</span>{" "}
+              mohith bhargav
+            </h2>
+          </div>
+          <div className="landinghero__secondarytitlewrapper">
+            <h1 className="landinghero__secondarytitle">
+              a{" "}
+              <span className="landinghero__secondarytitleprof">engineer</span>{" "}
+              in
+            </h1>
+          </div>
+          <div className="landinghero__herotyperwrapper">
+            <Typer
+              dataText={[
+                "artificial intelligence.",
+                "full stack development.",
+                "robotics.",
+                "electronics.",
+              ]}
+            />
+          </div>
         </div>
+        <ScrollDown />
       </div>
     );
   }
