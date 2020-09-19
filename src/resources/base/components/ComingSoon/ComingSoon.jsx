@@ -6,7 +6,7 @@ function ComingSoon() {
   return (
     <div className="comingsoon__container">
       <div className="comingsoon__wrapper">
-        <h1>Coming Soon</h1>
+        <h1>Under Development</h1>
         <h1>
           Upgrading to{" "}
           <span className="comingsoon__highlightcolor">React!</span>
