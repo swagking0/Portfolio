@@ -119,7 +119,7 @@
 @media screen and (max-width: 812px) {
   .herosection__abouthero {
     width: 100%;
-    height: 100%;
+    height: 60%;
   }
 
   .abouthero__container {
