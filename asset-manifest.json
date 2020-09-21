@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a90a6f90.chunk.css",
-    "main.js": "/Portfolio/static/js/main.3b50b395.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.3b50b395.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.de1e8f94.chunk.css",
+    "main.js": "/Portfolio/static/js/main.5935d295.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5935d295.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.cffb452f.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.cffb452f.js.map",
-    "static/js/2.0be57c9b.chunk.js": "/Portfolio/static/js/2.0be57c9b.chunk.js",
-    "static/js/2.0be57c9b.chunk.js.map": "/Portfolio/static/js/2.0be57c9b.chunk.js.map",
+    "static/js/2.145d2194.chunk.js": "/Portfolio/static/js/2.145d2194.chunk.js",
+    "static/js/2.145d2194.chunk.js.map": "/Portfolio/static/js/2.145d2194.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.7035ac39ff9b6be30508e0ed31575c91.js": "/Portfolio/precache-manifest.7035ac39ff9b6be30508e0ed31575c91.js",
+    "precache-manifest.a040285fb59952471df9d5db08583945.js": "/Portfolio/precache-manifest.a040285fb59952471df9d5db08583945.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.a90a6f90.chunk.css.map": "/Portfolio/static/css/main.a90a6f90.chunk.css.map",
-    "static/js/2.0be57c9b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.0be57c9b.chunk.js.LICENSE.txt",
-    "static/media/CV-Sunkara.pdf": "/Portfolio/static/media/CV-Sunkara.5a0e8cd7.pdf",
+    "static/css/main.de1e8f94.chunk.css.map": "/Portfolio/static/css/main.de1e8f94.chunk.css.map",
+    "static/js/2.145d2194.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.145d2194.chunk.js.LICENSE.txt",
+    "static/media/4allportallogo.svg": "/Portfolio/static/media/4allportallogo.a6b68caf.svg",
+    "static/media/BHELlog.png": "/Portfolio/static/media/BHELlog.31625235.png",
+    "static/media/CV-Sunkara.pdf": "/Portfolio/static/media/CV-Sunkara.043df765.pdf",
     "static/media/abouthero.css": "/Portfolio/static/media/resource-HeroImg.2095c4b9.png",
     "static/media/resource-image002.svg": "/Portfolio/static/media/resource-image002.a6de2cb6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cffb452f.js",
-    "static/js/2.0be57c9b.chunk.js",
-    "static/css/main.a90a6f90.chunk.css",
-    "static/js/main.3b50b395.chunk.js"
+    "static/js/2.145d2194.chunk.js",
+    "static/css/main.de1e8f94.chunk.css",
+    "static/js/main.5935d295.chunk.js"
   ]
 }
