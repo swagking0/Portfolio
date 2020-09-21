@@ -96,3 +96,23 @@ import {
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
+
+
+  const organisationlogos = [
+    Herologo4allportal,
+    HerologoNCR,
+    HerologoBHEL,
+    HerologoECIL,
+  ];
+  const heroroles = [
+    "software developer",
+    "project trainee",
+    "project trainee",
+    "project trainee",
+  ];
+  const organisationlinks = [
+    "https://4allportal.net/en/",
+    "https://www.ncr.com/",
+    "www.bhel.com",
+    "www.ecil.co.in",
+  ];

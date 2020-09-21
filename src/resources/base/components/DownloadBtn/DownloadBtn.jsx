@@ -17,8 +17,16 @@ class DownloadBtn extends Component {
               </i>
             </div>
             <div className="downloadbtn__backfacewrapper">
-              <h1 className="downloadbtn__backtitle">file size: 108.5kB</h1>
-              <h1 className="downloadbtn__backtitle">file extension: pdf</h1>
+              <h1 className="downloadbtn__backtitle">
+                <span className="downloadbtn__highlighter">file size:</span> 106
+                KB
+              </h1>
+              <h1 className="downloadbtn__backtitle">
+                <span className="downloadbtn__highlighter">
+                  file extension:
+                </span>{" "}
+                pdf
+              </h1>
             </div>
           </a>
         </div>

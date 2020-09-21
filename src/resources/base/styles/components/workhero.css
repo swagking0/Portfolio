@@ -1,0 +1,63 @@
+.herosection__workhero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  padding: 20px 0;
+}
+
+.workhero__container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workhero__leftwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.workhero__rightwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.workhero__rightwrapper h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.workhero__highlighter {
+  background-color: #262223;
+  color: #f2f2f2;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 812px) {
+  .workhero__container {
+    width: 100%;
+    flex-flow: row wrap;
+  }
+
+  .workhero__leftwrapper {
+    order: 2;
+  }
+
+  .workhero__rightwrapper {
+    order: 1;
+  }
+
+  .workhero__rightwrapper h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+}

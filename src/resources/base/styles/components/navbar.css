@@ -1,10 +1,11 @@
 .navbar__container {
   width: 100%;
   position: fixed;
+  background-color: #262223;
   top: 0;
   left: 0;
   display: flex;
-  padding: 40px 100px;
+  padding: 25px 100px;
   justify-content: space-between;
   align-items: center;
   transition: 0.6s;
@@ -20,7 +21,6 @@
   text-decoration: none;
   letter-spacing: 2px;
   transition: 0.6s;
-  background-color: #262223;
 }
 
 .navbar__menu {
@@ -28,7 +28,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #262223;
   padding: 10px 0;
 }
 
@@ -52,7 +51,6 @@
 
 .navbar__showmenubtn {
   padding: 0 10px;
-  background-color: #262223;
 }
 
 .navbar__showmenubtn,
@@ -90,7 +88,7 @@
 
 @media screen and (max-width: 812px) {
   .navbar__container {
-    padding: 40px 10px;
+    padding: 15px 10px;
     z-index: 100;
   }
 

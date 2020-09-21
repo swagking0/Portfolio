@@ -5,6 +5,7 @@ import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 import LandingHero from "../../components/LandingHero/LandingHero";
 import AboutHero from "../../components/AboutHero/AboutHero";
+import WorkHero from "../../components/WorkHero/WorkHero";
 import ComingSoon from "../../components/ComingSoon/ComingSoon";
 
 class Home extends Component {
@@ -41,6 +42,7 @@ class Home extends Component {
       <div className="home__container">
         <LandingHero />
         <AboutHero />
+        <WorkHero />
         <ComingSoon />
         <ScrollToTop
           isVisible={isscrolltotop_visible}
