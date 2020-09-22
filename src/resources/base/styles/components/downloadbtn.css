@@ -55,6 +55,7 @@
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 1px;
+  text-transform: capitalize;
 }
 
 .downloadbtn__frontfacewrapper {
@@ -63,10 +64,4 @@
 
 .downloadbtn__wrapper:hover .downloadbtn__frontfacewrapper {
   margin-top: -50px;
-}
-
-.downloadbtn__highlighter {
-  background-color: #262223;
-  color: #f2f2f2;
-  padding: 0 5px;
 }

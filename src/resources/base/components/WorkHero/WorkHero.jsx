@@ -14,6 +14,7 @@ function WorkHero() {
             <OrganisationCard
               key={data.id}
               organisationlogo={data.organisationlogo}
+              heroroletitle="Role"
               herorole={data.herorole}
               organisationlink={data.organisationlink}
             />
@@ -21,7 +22,7 @@ function WorkHero() {
         </div>
         <div className="workhero__rightwrapper">
           <h1>
-            <span className="workhero__highlighter">organisations</span> i
+            <span className="globalshared__highlighter">organisations</span> i
             crafted code for
           </h1>
         </div>

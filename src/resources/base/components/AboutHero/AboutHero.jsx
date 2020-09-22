@@ -30,7 +30,7 @@ function AboutHero() {
       <div className="abouthero__container">
         <div className="abouthero__sectitlewrapper">
           <h1 className="abouthero__sectitle">
-            more <span className="abouthero__highlighter">about me</span>
+            more <span className="globalshared__highlighter">about me</span>
           </h1>
         </div>
         <div className="abouthero__moreaboutherowrapper">
@@ -40,10 +40,34 @@ function AboutHero() {
           <div className="abouthero__aboutherowrapper">
             <p className="abouthero__abouthero">
               <q>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                I am a self-taught{" "}
+                <span className="globalshared__highlighter">
+                  software developer
+                </span>{" "}
+                and an{" "}
+                <span className="globalshared__highlighter">
+                  interdisciplinary engineer
+                </span>{" "}
+                in the fields of instrumentation, electronics and artificial
+                intelligence with a thought process to explore new skills sets
+                and knowledge bases. With that saying, I love to solve
+                real-world problems irrespective of the discipline. If I fail, I
+                will never back off. Instead, I will follow my simple success
+                cycle{" "}
+                <span className="globalshared__highlighter">
+                  <q>push the boundaries</q>
+                </span>
+                ,{" "}
+                <span className="globalshared__highlighter">
+                  <q>work hard</q>
+                </span>{" "}
+                and{" "}
+                <span className="globalshared__highlighter">
+                  <q>learn</q>
+                </span>
+                . Moreover, I believe that failure helps you to make a better
+                version of yourself. Apart from being an engineer, I love to
+                play virtual games and explore my passion for being a gamer.
               </q>
             </p>
           </div>
@@ -51,7 +75,7 @@ function AboutHero() {
         <div className="abouthero__skillswrapper">
           <div className="abouthero__skilltitlewrapper">
             <h1 className="abouthero__skilltitle">
-              my <span className="abouthero__highlighter">skills</span>{" "}
+              my <span className="globalshared__highlighter">skills</span>{" "}
               inventory
             </h1>
           </div>

@@ -36,12 +36,6 @@
   font-weight: 600;
 }
 
-.workhero__highlighter {
-  background-color: #262223;
-  color: #f2f2f2;
-  padding: 0 10px;
-}
-
 @media screen and (max-width: 812px) {
   .workhero__container {
     width: 100%;

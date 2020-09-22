@@ -67,9 +67,10 @@
 }
 
 .abouthero__abouthero {
-  font-size: 1.3rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   font-weight: 500;
+  line-height: 1.7em;
 }
 
 .abouthero__skillswrapper {
@@ -115,12 +116,6 @@
   padding: 10px 0;
 }
 
-.abouthero__highlighter {
-  background-color: #262223;
-  color: #f2f2f2;
-  padding: 0 10px;
-}
-
 @media screen and (max-width: 812px) {
   .herosection__abouthero {
     width: 100%;
@@ -162,7 +157,7 @@
   }
 
   .abouthero__abouthero {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .abouthero__skilltitlewrapper {

@@ -3,7 +3,12 @@ import "../../styles/components/organisationcard.css";
 
 class OrganisationCard extends Component {
   render() {
-    const { organisationlogo, herorole, organisationlink } = this.props;
+    const {
+      organisationlogo,
+      heroroletitle,
+      herorole,
+      organisationlink,
+    } = this.props;
     return (
       <div className="organisationcard__container">
         <div className="organisationcard__wrapper">
@@ -11,7 +16,7 @@ class OrganisationCard extends Component {
             <img src={organisationlogo} alt="heroorglogo"></img>
           </div>
           <div className="organisationcard__content">
-            <h1>Role</h1>
+            <h1>{heroroletitle}</h1>
             <h3>{herorole}</h3>
             <a
               href={organisationlink}

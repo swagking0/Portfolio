@@ -46,5 +46,8 @@ q::after {
 
 /*===== Shared Classes Css =====*/
 .globalshared__highlighter {
-  color: #f2811d;
+  background-color: #262223;
+  color: #f2f2f2;
+  padding: 0 10px;
+  text-transform: capitalize;
 }

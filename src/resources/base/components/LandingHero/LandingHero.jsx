@@ -23,15 +23,13 @@ class LandingHero extends Component {
           </div>
           <div className="landinghero__heronamewrapper">
             <h2 className="landinghero__heroname">
-              i'm <span className="landinghero__heronamelogo">sunkara.</span>{" "}
+              i'm <span className="globalshared__highlighter">sunkara.</span>{" "}
               mohith bhargav
             </h2>
           </div>
           <div className="landinghero__secondarytitlewrapper">
             <h1 className="landinghero__secondarytitle">
-              a{" "}
-              <span className="landinghero__secondarytitleprof">engineer</span>{" "}
-              in
+              a <span className="globalshared__highlighter">engineer</span> in
             </h1>
           </div>
           <div className="landinghero__herotyperwrapper">
