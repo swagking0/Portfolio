@@ -3,7 +3,8 @@
   height: 200px;
   width: 200px;
   background: #262223;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .organisationcard__wrapper {
@@ -43,7 +44,7 @@
   .organisationcard__imgbox
   img {
   max-width: 100px;
-  transition: 0.6s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .organisationcard__container
