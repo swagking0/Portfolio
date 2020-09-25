@@ -1,9 +1,3 @@
-        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-        <link rel="manifest" href="favicon_io/site.webmanifest">
-
-
 My data:
 https://gitconnected.com/swagking0
 api: https://gitconnected.com/v1/portfolio/swagking0
@@ -14,105 +8,72 @@ black: #262223
 organe: #F2811D
 white: #F2F2F2
 
+###############################
+Some crazy icons
+www.streamlineicons.com
+###############################
+
 A reference resource: https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d
-
-
-temp:
-
-    let index = 0;
-    const updateherointerestValue = (i, value) => {
-      setTimeout(() => {
-        setherointerestValue(value);
-      }, 1000 * i);
-    };
-    const timer = setInterval(() => {
-      for (index; index < herointerest.length; index++) {
-        updateherointerestValue(index, herointerest[index]);
-      }
-    }, 5000);
-    return () => clearInterval(timer);
 
 https://bennettfeely.com/clippy/
 
-++++++++++++++++++++++++++
-{/*<div className="abouthero__container">
-          <div className="abouthero__wrapper">
-            <div className="abouthero__leftwrapper">
-              <div className="abouthero__leftwrapperchild1">
-                <div className="abouthero__leftheroimgcontainer"></div>
-              </div>
-            </div>
-            <div className="abouthero__rightwrapper">
-              <div className="abouthero__rightwrapperchild1">
-                <h4 className="rightchild__heroheadline">more about me...</h4>
-                <p className="rightchild1__heroparagraph">
-                  <q>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </q>
-                </p>
-              </div>
-              <div className="abouthero__rightwrapperchild2">
-                <h4 className="rightchild__heroheadline">
-                  top expertise in...
-                </h4>
-                <div className="rightchild__heroskills">
-                  <ul>
-                    <h4 className="heroskills__firstli">scripting languages</h4>
-                    {heroskills_scripting.map((scriptskill) => (
-                      <li>{scriptskill}</li>
-                    ))}
-                  </ul>
-                  <ul>
-                    <h4 className="heroskills__firstli">Databases</h4>
-                    {heroskills_Databases.map((databaseskill) => (
-                      <li>{databaseskill}</li>
-                    ))}
-                  </ul>
-                  <ul>
-                    <h4 className="heroskills__firstli">
-                      Frameworks & Softwares
-                    </h4>
-                    {heroskills_FrameworksSoftwares.map(
-                      (frameworksoftwareskill) => (
-                        <li>{frameworksoftwareskill}</li>
-                      )
-                    )}
-                  </ul>
-                </div>
-              </div>
-              <div className="abouthero__rightwrapperchild3"></div>
-            </div>
-          </div>
-                      </div> */}
-
-import {
-  FaInstagram,
-  FaFacebookF,
-  FaTwitter,
-  FaDiscord,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+https://codepen.io/vasilly/pen/LkZKzj?editors=0010
 
 
-  const organisationlogos = [
-    Herologo4allportal,
-    HerologoNCR,
-    HerologoBHEL,
-    HerologoECIL,
-  ];
-  const heroroles = [
-    "software developer",
-    "project trainee",
-    "project trainee",
-    "project trainee",
-  ];
-  const organisationlinks = [
-    "https://4allportal.net/en/",
-    "https://www.ncr.com/",
-    "www.bhel.com",
-    "www.ecil.co.in",
-  ];
+#############################################
+Firebase
+#############################################'=
+const firebaseConfig = {
+  apiKey: "AIzaSyDWR1x45jhLGZqqW6M8SKj1D1uO3O6GgzE",
+  authDomain: "swagking0-herodata.firebaseapp.com",
+  databaseURL: "https://swagking0-herodata.firebaseio.com",
+  projectId: "swagking0-herodata",
+  storageBucket: "swagking0-herodata.appspot.com",
+  messagingSenderId: "1016523810051",
+  appId: "1:1016523810051:web:311553c254abfdc1b4f536"
+};
+####################################################################
+
+temp:
+  {
+    workherodata: {
+      work_1: {
+        id: 1,
+        organisationlogo: Herologo4allportal,
+        herorole: "software developer",
+        organisationlink: "https://4allportal.net/en/",
+      },
+      work_2: {
+        id: 2,
+        organisationlogo: HerologoNCR,
+        herorole: "project trainee",
+        organisationlink: "https://www.ncr.com/",
+      },
+      work_3: {
+        id: 3,
+        organisationlogo: HerologoBHEL,
+        herorole: "project trainee",
+        organisationlink: "https://www.bhel.com",
+      },
+      work_4: {
+        id: 4,
+        organisationlogo: HerologoECIL,
+        herorole: "project trainee",
+        organisationlink: "http://www.ecil.co.in",
+      },
+    },
+    schoolherodata: {
+      school_1: {
+        id: 1,
+        institutionlogo: HerologoBielefeld,
+        institutiondegree: "master of science",
+        institutionlink: "https://www.uni-bielefeld.de/",
+      },
+      school_2: {
+        id: 2,
+        institutionlogo: HerologoSRM,
+        institutiondegree: "bachelor of technology",
+        institutionlink: "https://www.srmist.edu.in/",
+      },
+    },
+  },

@@ -87,7 +87,6 @@
 .abouthero__skilltitle {
   font-size: 3rem;
   font-weight: 600;
-  letter-spacing: 2px;
   text-transform: capitalize;
 }
 
@@ -167,7 +166,6 @@
 
   .abouthero__skilltitle {
     font-size: 2rem;
-    letter-spacing: 1px;
   }
 
   .abouthero__skillwrapper {

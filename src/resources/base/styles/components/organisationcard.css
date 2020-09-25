@@ -44,14 +44,14 @@
   .organisationcard__imgbox
   img {
   max-width: 100px;
-  transition: 1s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .organisationcard__container
   .organisationcard__wrapper:hover
   .organisationcard__imgbox
   img {
-  max-width: 75px;
+  max-width: 50px;
 }
 
 .organisationcard__content {
@@ -74,15 +74,17 @@
   color: #f2f2f2;
   padding: 5px 5px;
   font-weight: 600;
+  text-transform: capitalize;
 }
 
 .organisationcard__content h3 {
   margin-left: 10px;
   margin-bottom: 5px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #f2f2f2;
   padding: 5px 5px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .organisationcard__content a {

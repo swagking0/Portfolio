@@ -1,0 +1,50 @@
+.herosection__schoolhero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  padding: 20px 0;
+}
+
+.schoolhero__container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.schoolhero__leftwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.schoolhero__rightwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 10px;
+}
+
+.schoolhero__leftwrapper h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 812px) {
+  .schoolhero__container {
+    width: 100%;
+    flex-flow: row wrap;
+  }
+
+  .schoolhero__leftwrapper h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+}

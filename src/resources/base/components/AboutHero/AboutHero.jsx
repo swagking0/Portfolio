@@ -30,7 +30,10 @@ function AboutHero() {
       <div className="abouthero__container">
         <div className="abouthero__sectitlewrapper">
           <h1 className="abouthero__sectitle">
-            more <span className="globalshared__highlighter">about me</span>
+            more <span className="globalshared__highlighter">about me</span>{" "}
+            <span role="img" aria-labelledby="abouthero__sectitle">
+              &#129488;
+            </span>
           </h1>
         </div>
         <div className="abouthero__moreaboutherowrapper">
@@ -67,7 +70,11 @@ function AboutHero() {
                 </span>
                 . Moreover, I believe that failure helps you to make a better
                 version of yourself. Apart from being an engineer, I love to
-                play virtual games and explore my passion for being a gamer.
+                play virtual games and explore my passion for being a gamer{" "}
+                <span role="img" aria-labelledby="abouthero__abouthero">
+                  🎮
+                </span>
+                .
               </q>
             </p>
           </div>
@@ -76,7 +83,10 @@ function AboutHero() {
           <div className="abouthero__skilltitlewrapper">
             <h1 className="abouthero__skilltitle">
               my <span className="globalshared__highlighter">skills</span>{" "}
-              inventory
+              inventory{" "}
+              <span role="img" aria-labelledby="abouthero__skilltitle">
+                &#128175;
+              </span>
             </h1>
           </div>
           <div className="abouthero__skillwrapper">
