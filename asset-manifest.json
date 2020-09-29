@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.37531aa4.chunk.css",
-    "main.js": "/Portfolio/static/js/main.0e36e57c.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.0e36e57c.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.aef375ff.chunk.css",
+    "main.js": "/Portfolio/static/js/main.cd5d4605.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.cd5d4605.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.cffb452f.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.cffb452f.js.map",
-    "static/js/2.f17626a3.chunk.js": "/Portfolio/static/js/2.f17626a3.chunk.js",
-    "static/js/2.f17626a3.chunk.js.map": "/Portfolio/static/js/2.f17626a3.chunk.js.map",
+    "static/js/2.a88a0522.chunk.js": "/Portfolio/static/js/2.a88a0522.chunk.js",
+    "static/js/2.a88a0522.chunk.js.map": "/Portfolio/static/js/2.a88a0522.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.3247b03f11a6e4c35ce64ae1a165c96f.js": "/Portfolio/precache-manifest.3247b03f11a6e4c35ce64ae1a165c96f.js",
+    "precache-manifest.26b7d0442391653aa86c865ce1bdbd5f.js": "/Portfolio/precache-manifest.26b7d0442391653aa86c865ce1bdbd5f.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.37531aa4.chunk.css.map": "/Portfolio/static/css/main.37531aa4.chunk.css.map",
-    "static/js/2.f17626a3.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f17626a3.chunk.js.LICENSE.txt",
+    "static/css/main.aef375ff.chunk.css.map": "/Portfolio/static/css/main.aef375ff.chunk.css.map",
+    "static/js/2.a88a0522.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a88a0522.chunk.js.LICENSE.txt",
     "static/media/4allportallog.svg": "/Portfolio/static/media/4allportallog.a6b68caf.svg",
     "static/media/BHELlog.png": "/Portfolio/static/media/BHELlog.31625235.png",
     "static/media/Bielefeldlog.png": "/Portfolio/static/media/Bielefeldlog.8cf249af.png",
-    "static/media/CV-Sunkara.pdf": "/Portfolio/static/media/CV-Sunkara.043df765.pdf",
+    "static/media/CV-Sunkara.pdf": "/Portfolio/static/media/CV-Sunkara.348f0876.pdf",
     "static/media/ECILlog.png": "/Portfolio/static/media/ECILlog.cd734933.png",
     "static/media/SRMlog.png": "/Portfolio/static/media/SRMlog.33e6c975.png",
     "static/media/abouthero.css": "/Portfolio/static/media/resource-HeroImg.2095c4b9.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cffb452f.js",
-    "static/js/2.f17626a3.chunk.js",
-    "static/css/main.37531aa4.chunk.css",
-    "static/js/main.0e36e57c.chunk.js"
+    "static/js/2.a88a0522.chunk.js",
+    "static/css/main.aef375ff.chunk.css",
+    "static/js/main.cd5d4605.chunk.js"
   ]
 }
