@@ -48,6 +48,17 @@ const OrganisationCardData = [
         institutionlink: "https://www.srmist.edu.in/",
       },
     ],
+    projectherodata: [
+      {
+        id: 1,
+        projecttitle: "",
+        projectimg: "",
+        projectdescription: "",
+        projectresource: "",
+        category: "",
+        visiteduserlike: 0,
+      },
+    ],
   },
 ];
 

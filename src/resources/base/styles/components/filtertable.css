@@ -1,0 +1,152 @@
+/*
+    Filtertable CSS
+*/
+.filtertable__container {
+  width: 100%;
+}
+
+/*
+    Filtertable UI CSS
+*/
+.filtertableui__container {
+  width: 100%;
+}
+
+.filtertableui__topwrapper {
+  width: 100%;
+  padding: 40px 10px;
+}
+
+.filtertableui__categorywrapper {
+  width: 100%;
+}
+
+.filtertableui__contentwrapper {
+  width: 100%;
+}
+
+/*
+    CategoryHolderUI CSS
+*/
+
+.categoryholder__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #262223;
+  padding: 20px 0;
+}
+
+.categoryholder__holder {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: #f2f2f2;
+  outline: none;
+}
+
+.categoryholder__holder:hover {
+  color: #f2811d;
+}
+
+.categoryholder__holder--active {
+  color: #f2811d;
+  border-bottom: 2px solid #f2811d;
+}
+
+/*
+  Filter CSS
+*/
+.filter__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+/*
+  ItemUI CSS
+*/
+.itemui__card {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: #f2f2f2;
+  text-align: center;
+  margin-top: 20px;
+  color: #262223;
+  transition: 0.5s ease;
+}
+
+.itemui__image {
+  grid-area: image;
+  background-size: cover;
+}
+
+.itemui__text {
+  grid-area: text;
+  margin: 25px;
+}
+
+.itemuitext__projectname {
+  margin-top: 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.itemuitext__projectintrocontent {
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.itemui__stats {
+  grid-area: stats;
+}
+
+.itemui__card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 812px) {
+  .filtertableui__topwrapper {
+    padding: 0;
+  }
+
+  .filtertableui__categorywrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+  }
+
+  .categoryholder__container {
+    width: 90%;
+    overflow-x: auto;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .categoryholder__container::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  .categoryholder__holder {
+    margin-left: 20px;
+    padding: 0 15px;
+  }
+}

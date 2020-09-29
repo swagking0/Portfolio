@@ -26,8 +26,18 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  max-height: 300px;
   flex-flow: row wrap;
+  overflow-y: auto;
   padding: 10px;
+  border: 4px solid #262223;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.schoolhero__rightwrapper::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 
 .schoolhero__leftwrapper h1 {
@@ -41,6 +51,12 @@
   .schoolhero__container {
     width: 100%;
     flex-flow: row wrap;
+  }
+
+  .schoolhero__rightwrapper {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
   }
 
   .schoolhero__leftwrapper h1 {

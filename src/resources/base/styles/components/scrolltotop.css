@@ -9,6 +9,7 @@
   right: 0.5rem;
   background-color: #262223;
   border-radius: 50%;
+  z-index: 100;
 }
 
 .scrolltotop__btn {

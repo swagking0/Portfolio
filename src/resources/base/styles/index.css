@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600&display=swap");
 
 * {
+  border: 0;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,6 +14,16 @@ code {
   background-color: #f2f2f2;
   line-height: 1.4;
   scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  height: 100%;
+}
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar,
+code::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 
 h1,

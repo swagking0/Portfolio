@@ -77,3 +77,11 @@ temp:
       },
     },
   },
+
+
+style={{ backgroundImage: `url(${tempImg})` }}
+      <div class="itemui__cardcontent">
+        <h3 class="itemui__cardheading">
+          <span className="globalshared__highlighter">{name}</span>
+        </h3>
+      </div>
