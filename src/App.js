@@ -4,6 +4,7 @@ import Routes from "./Routes";
 
 import Loader from "./resources/base/components/Loader/Loader";
 import NavBar from "./resources/base/components/NavBar/NavBar";
+import Footer from "./resources/base/components/Footer/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -55,6 +56,7 @@ class App extends Component {
       <React.Fragment>
         <NavBar isSticky={isStickynavbar} />
         <Routes />
+        <Footer />
       </React.Fragment>
     );
   }

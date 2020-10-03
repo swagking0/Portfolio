@@ -22,7 +22,9 @@ function NavBar({ isSticky }) {
   };
   return (
     <div className={isSticky}>
-      <h2 className="navbar__logo">Sunkara.</h2>
+      <NavLink exact to="/Portfolio">
+        <h2 className="navbar__logo">Sunkara.</h2>
+      </NavLink>
       <input type="checkbox" id="navbar-chk" onChange={handlenavbarChk}></input>
       <label htmlFor="navbar-chk" className={toggle_showbtnClass}>
         <CgMore className="navbar__showbtn" />

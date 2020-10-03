@@ -9,6 +9,7 @@
   justify-content: space-between;
   align-items: center;
   transition: 0.6s;
+  z-index: 100;
 }
 
 .navbar__logo {
@@ -42,6 +43,7 @@
   transition: 0.6s;
   letter-spacing: 2px;
   margin: 0 15px;
+  cursor: pointer;
 }
 
 .navbar__menuitem--active {
