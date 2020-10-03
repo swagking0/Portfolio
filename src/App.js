@@ -4,6 +4,7 @@ import Routes from "./Routes";
 
 import Loader from "./resources/base/components/Loader/Loader";
 import NavBar from "./resources/base/components/NavBar/NavBar";
+import SocialHeroBanner from "./resources/base/components/SocialHeroBanner/SocialHeroBanner";
 import Footer from "./resources/base/components/Footer/Footer";
 
 class App extends Component {
@@ -56,6 +57,7 @@ class App extends Component {
       <React.Fragment>
         <NavBar isSticky={isStickynavbar} />
         <Routes />
+        <SocialHeroBanner />
         <Footer />
       </React.Fragment>
     );

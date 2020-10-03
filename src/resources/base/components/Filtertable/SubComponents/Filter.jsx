@@ -10,8 +10,13 @@ function Filter({ state: { items, displayCategory } }) {
           ({ category }) =>
             displayCategory === category || displayCategory === "all"
         )
-        .map(({ category, name }) => (
-          <ItemUI key={name} category={category} name={name} />
+        .map(({ category, name, urlLink }) => (
+          <ItemUI
+            key={name}
+            category={category}
+            name={name}
+            urlLink={urlLink}
+          />
         ))}
     </div>
   );

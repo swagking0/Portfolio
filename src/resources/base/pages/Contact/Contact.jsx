@@ -4,13 +4,6 @@ import "../../styles/pages/contact.css";
 import emailjs from "emailjs-com";
 
 import { MdMyLocation, MdContactMail, MdCall } from "react-icons/md";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
 
 class Contact extends Component {
   state = {
@@ -106,53 +99,6 @@ class Contact extends Component {
                 </div>
               </div>
             </div>
-            <ul className="contact__sociallinks">
-              <li>
-                <a
-                  href="https://www.facebook.com/mohith.bhargav/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaFacebookF />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/MohithSunkara"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaTwitter />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/mohith.bhargav/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaInstagram />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/mohith-bhargav-sunkara-930796119/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedin />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/swagking0"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaGithub />
-                </a>
-              </li>
-            </ul>
           </div>
           <div className="contact__formcontainer">
             <form onSubmit={this.handleSubmit}>

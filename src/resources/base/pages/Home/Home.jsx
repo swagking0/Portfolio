@@ -8,6 +8,7 @@ import AboutHero from "../../components/AboutHero/AboutHero";
 import WorkHero from "../../components/WorkHero/WorkHero";
 import SchoolHero from "../../components/SchoolHero/SchoolHero";
 import ProjectHero from "../../components/ProjectHero/ProjectHero";
+import ContactHeroBanner from "../../components/ContactHeroBanner/ContactHeroBanner";
 
 class Home extends Component {
   state = {
@@ -61,6 +62,7 @@ class Home extends Component {
         <WorkHero />
         <SchoolHero />
         <ProjectHero items={ITEMS} />
+        <ContactHeroBanner />
         <ScrollToTop
           isVisible={this.state.isscrolltotop_visible}
           movetoTop={this.scrolltoTop_fnc}

@@ -1,27 +1,21 @@
 import React from "react";
+import ResourceImg from "../../../asserts/images/resouce-loadingIndi.gif";
 
-function ItemUI({ category, name }) {
-  const tempImg =
-    "https://dummyimage.com/600x400/262223/f2f2f2.png&text=Upgrading+to+react!";
+function ItemUI({ category, name, urlLink }) {
   return (
     <div class="itemui__card">
       <div
         className="itemui__image"
-        style={{ backgroundImage: `url(${tempImg})` }}
+        style={{ backgroundImage: `url(${ResourceImg})` }}
       ></div>
       <div className="itemui__text">
-        <h2 className="itemuitext__projectname">
-          <span className="globalshared__highlighter">{name}</span>
-        </h2>
-        <p className="itemuitext__projectintrocontent">
-          The standard chunk of Lorem Ipsum used since the 1500s is reproduced
-          below for those interested. Sections 1.10.32 and 1.10.33 from "de
-          Finibus Bonorum et Malorum" by Cicero are also reproduced in their
-          exact original form, accompanied by English versions from the 1914
-          translation by H. Rackham.
-        </p>
+        <h2 className="itemuitext__projectname">{name}</h2>
       </div>
-      <div className="itemui__stats"></div>
+      <div className="itemui__stats">
+        <a href={urlLink} target="_blank" rel="noopener noreferrer">
+          read more <i className="fas fa-angle-double-right"></i>{" "}
+        </a>
+      </div>
     </div>
   );
 }
